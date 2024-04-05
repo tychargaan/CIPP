@@ -9,7 +9,6 @@
     {
       "route": "/login",
       "rewrite": "/.auth/login/aad"
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous", "support"]
     },
     {
       "route": "/.auth/login/twitter",
