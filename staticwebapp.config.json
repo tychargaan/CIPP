@@ -71,7 +71,7 @@
       "allowedRoles": ["admin"]
     },
     {
-      "route": "/tenant/standards/*",
+      "route": "/tenant/*",
       "allowedRoles": ["admin"]
     },
     {
