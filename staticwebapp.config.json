@@ -85,7 +85,11 @@
     {
       "route": "*",
       "allowedRoles": ["admin", "editor", "support", "readonly", "reader"]
-    }
+    },
+    {
+      "route": "/home/*",
+      "allowedRoles": ["admin", "editor", "support", "readonly", "reader", "authenticated", "anonymous"]
+    }  
   ],
   "navigationFallback": {
     "rewrite": "index.html",
