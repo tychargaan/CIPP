@@ -24,7 +24,7 @@
     },
     {
       "route": "/api/ExecSAMSetup",
-      "allowedRoles": ["admin", "editor", "support", "readonly", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
       "route": "/api/AddStandardsDeploy",
@@ -32,11 +32,11 @@
     },
     {
       "route": "/LogoutRedirect",
-      "allowedRoles": ["admin", "editor", "support", "readonly", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
       "route": "/404",
-      "allowedRoles": ["admin", "editor", "support", "readonly", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
     },
     {
       "route": "/api/RemoveStandard",
@@ -52,7 +52,7 @@
     },
     {
       "route": "/api/ExecSendPush",
-      "allowedRoles": ["admin", "editor", "readonly", "support"]
+      "allowedRoles": ["admin", "editor", "readonly"]
     },
     {
       "route": "/api/ExecExcludeTenant",
@@ -71,25 +71,21 @@
       "allowedRoles": ["admin"]
     },
     {
-      "route": "/tenant/*",
-      "allowedRoles": ["admin"]
-    },
-    {
-      "route": "/tenant/conditional*",
+      "route": "/tenant/standards/*",
       "allowedRoles": ["admin"]
     },
     {
       "route": "/",
-      "allowedRoles": ["admin", "editor", "support", "readonly", "reader", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
     },
     {
       "route": "/api/Public*",
-      "allowedRoles": ["admin", "editor", "support", "readonly", "reader", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
     },
     {
       "route": "*",
-      "allowedRoles": ["admin", "editor", "support", "readonly", "reader"]
-    } 
+      "allowedRoles": ["admin", "editor", "readonly", "reader"]
+    }
   ],
   "navigationFallback": {
     "rewrite": "index.html",
