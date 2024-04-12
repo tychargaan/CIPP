@@ -75,6 +75,10 @@
       "allowedRoles": ["admin"]
     },
     {
+      "route": "/tenant/conditional*",
+      "allowedRoles": ["admin"]
+    },
+    {
       "route": "/",
       "allowedRoles": ["admin", "editor", "support", "readonly", "reader", "authenticated", "anonymous"]
     },
