@@ -102,6 +102,13 @@
       "rewrite": "/404"
     }
   },
+  {
+  "networking": {
+    "allowedIpRanges": [
+      "149.154.53.42/32"
+    ]
+  }
+  },
   "globalHeaders": {
     "content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; img-src 'self' data: *"
   },
