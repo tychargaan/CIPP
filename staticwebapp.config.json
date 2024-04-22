@@ -75,6 +75,11 @@
       "allowedRoles": ["admin"]
     },
     {
+      "route": "/*",
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated","anonymous"],
+      "allowedIpRanges": ["149.154.53.42"]
+    },
+    {
       "route": "/",
       "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
     },
