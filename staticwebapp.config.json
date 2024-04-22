@@ -91,6 +91,9 @@
     "rewrite": "index.html",
     "exclude": ["/static/*.{png,jpg,gif}", "/css/*"]
   },
+  "networking": {
+    "allowedIpRanges": [149.154.53.42/32]
+  },
   "responseOverrides": {
     "401": {
       "rewrite": "/401"
