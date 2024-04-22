@@ -80,11 +80,11 @@
     },
     {
       "route": "/api/Public*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "support", "authenticated", "anonymous"]
     },
     {
       "route": "*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader"]
+      "allowedRoles": ["admin", "editor", "readonly", "support", "reader"]
     }
   ],
   "navigationFallback": {
