@@ -93,6 +93,7 @@
   },
   "networking": {
     "allowedIpRanges": ["149.154.53.42/32"]
+  
   },
   "responseOverrides": {
     "401": {
