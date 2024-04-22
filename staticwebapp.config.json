@@ -24,7 +24,7 @@
     },
     {
       "route": "/api/ExecSAMSetup",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "editor", "readonly", "support", "authenticated", "anonymous"]
     },
     {
       "route": "/api/AddStandardsDeploy",
@@ -32,11 +32,11 @@
     },
     {
       "route": "/LogoutRedirect",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "editor", "readonly", "support", "authenticated", "anonymous"]
     },
     {
       "route": "/404",
-      "allowedRoles": ["admin", "editor", "readonly", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "editor", "readonly", "support", "authenticated", "anonymous"]
     },
     {
       "route": "/api/RemoveStandard",
@@ -52,7 +52,7 @@
     },
     {
       "route": "/api/ExecSendPush",
-      "allowedRoles": ["admin", "editor", "readonly"]
+      "allowedRoles": ["admin", "editor", "readonly", "support"]
     },
     {
       "route": "/api/ExecExcludeTenant",
