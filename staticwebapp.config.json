@@ -76,7 +76,7 @@
     },
     {
       "route": "/",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
+      "allowedRoles": ["admin", "editor", "readonly", "reader", "support", "authenticated", "anonymous"]
     },
     {
       "route": "/api/Public*",
@@ -91,11 +91,6 @@
     "rewrite": "index.html",
     "exclude": ["/static/*.{png,jpg,gif}", "/css/*"]
   },
-  "networking": {
-    "allowedIpRanges": [
-      "149.154.53.42/32"
-    ]
-  }
   "responseOverrides": {
     "401": {
       "rewrite": "/401"
