@@ -75,11 +75,6 @@
       "allowedRoles": ["admin"]
     },
     {
-      "route": "/*",
-      "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated","anonymous"],
-      "allowedIpRanges": ["149.154.53.42"]
-    },
-    {
       "route": "/",
       "allowedRoles": ["admin", "editor", "readonly", "reader", "authenticated", "anonymous"]
     },
@@ -96,6 +91,11 @@
     "rewrite": "index.html",
     "exclude": ["/static/*.{png,jpg,gif}", "/css/*"]
   },
+  "networking": {
+    "allowedIpRanges": [
+      "149.154.53.42/32"
+    ]
+  }
   "responseOverrides": {
     "401": {
       "rewrite": "/401"
